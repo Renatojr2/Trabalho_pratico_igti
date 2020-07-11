@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+
+  <title>Background dinâmicas</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="rangeGroup">
+        <span>Red</span>
+        <input class="fristRange" id="frist" type="range" min="0" max="255">
+        <span id="fristRange" class="result"></span>
+      </div>
+      <div class="rangeGroup">
+        <span>Green</span>
+        <input class="secondRange" type="range" min="0" max="255">
+        <span id="secondRange" class="result"></span>
+      </div>
+      <div class="rangeGroup">
+        <span>Blue</span>
+        <input class="thirdRange" type="range" min="0" max="255">
+        <span id="thirdRange" class="result"></span>
+      </div>
+    </div>
+  </div>
+
+  <input type="text" disabled>
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
